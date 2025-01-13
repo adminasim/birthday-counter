@@ -51,7 +51,7 @@ p::first-letter {
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 23, 2025 00:00:25").getTime();
+var countDownDate = new Date("Jan 23, 2025 00:00:02").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -69,8 +69,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + " 📅 : " + hours + "⏰ :"
-  + minutes + "🕐 : " + seconds + "⏱" + "<br>Plz Wait Dear💖";
+  document.getElementById("demo").innerHTML = days + " : " + hours + " : "
+  + minutes + " : " + seconds + "" + "<br>Plz Wait Dear💖";
     
   // If the count down is over, write some text 
   if (distance < 0) {
