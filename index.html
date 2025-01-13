@@ -3,9 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  /*html{
-  height: 100%;
-}*/
+
   body{
     background-image: url("./image/background-img.jpg");
     background-size: cover;
@@ -45,6 +43,8 @@ p {
 <body>
 <div class="box">
 <p id="demo"></p>
+  <span style="color: gray; font-size: 80px; padding: 0px; margin: 0px; text-shadow: 5px 1px #ada8a7;
+  margin: auto;">Plz Wait Dear💖</span>
 </div>
 
 
@@ -70,7 +70,7 @@ var x = setInterval(function() {
     
   // Output the result in an element with id="demo"
   document.getElementById("demo").innerHTML = days + " : " + hours + " : "
-  + minutes + " : " + seconds + "" + "<br>Plz Wait Dear💖";
+  + minutes + " : " + seconds + "" + "";
     
   // If the count down is over, write some text 
   if (distance < 0) {
